@@ -2,8 +2,29 @@
 <html>
 <head>
   <title>My First Project</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      margin: 0;
+      position: relative;
+    }
+
+    canvas {
+      background: #FFF;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 </head>
 <body>
+  <div id="root"></div>
   <script type="module" src="./index.js"></script>
 </body>
 </html>
